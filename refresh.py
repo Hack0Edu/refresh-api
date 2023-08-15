@@ -11,7 +11,7 @@ headers = {
     "X-Requested-With": "XMLHttpRequest"
 }
 while True:
-    time.sleep(60)
+    time.sleep(1200)
     response = requests.get(url, headers=headers)
     print("enviado peticion a :", url)
     print("respuesta:", response.text)
